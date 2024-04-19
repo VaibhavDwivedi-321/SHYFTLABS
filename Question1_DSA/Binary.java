@@ -19,7 +19,7 @@ public class Binary {
         int low = 0;
         int high = 1;
 
-        while (high < arr.length && arr[high] == -1) {
+        while (high < arr.length && arr[high] != -1) {
             low = high;
             high *= 2;
         }
